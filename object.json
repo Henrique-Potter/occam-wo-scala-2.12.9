@@ -1,4 +1,7 @@
 {
   "name": "scala-2.12.9",
-  "type": "language"
+  "type": "language",
+  "authors": [
+    "QmZc6nWRX4NHqSSugP6SDmgQwEnaLw7iXioD9cbgorUnbH"
+  ]
 }
