@@ -3,5 +3,23 @@
   "type": "language",
   "authors": [
     "QmZc6nWRX4NHqSSugP6SDmgQwEnaLw7iXioD9cbgorUnbH"
+  ],
+  "includes": [
+    {
+      "name": "jdk",
+      "type": "runtime",
+      "init": {
+        "link": [
+          {
+            "source": "usr/share/scala/bin",
+            "to": "/usr/share/scala/bin"
+          }]
+      },
+      "run": {
+        "command": [
+          "usr/share/scala/bin/scala"
+        ]
+      }
+    }
   ]
 }
